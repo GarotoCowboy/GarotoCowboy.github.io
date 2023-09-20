@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "icons/capivaraIcon.png" type = "image/png">
+
+    <style>
+        h2 {text-align: center;}
+    </style>
+
+    <link rel = "stylesheet" href = "css/estilos.css">
+    <title>O que é css?</title>
+</head>
+<body>
+    <h2>Definição de css</h2>
+    <p>O css é utilizado para estilarizar as nossas páginas em html,controlando a forma que uma página
+        é estruturada para obter uma melhor aparência.  </p>
+    <p>Há três formas de aplicar o css sendo elas:</p>
+
+    <ul>
+        <li><strong>Inline:</strong>Estilos que são aplicados diretamente em um elemento html</li>
+        <li><strong>Incorporado:</strong> modo utiliza o comando style dentro de uma página html para
+            aplicar<br> as estilizações html o seu comando é style tipo de elemento que deseja estilarizar
+             /style  </li>
+        <li><strong>Folha de estilo externa:</strong> você cria uma classe com a extensão .css, fazendo com que você
+            possa estilizar uma pagina inteira ou mais sem ter que poluir o seu código html.  
+        </li>
+
+    </ul>
+    <p>A sintaxe do css para que possamos estilizar a nossa página é <strong>selector{propriedade:valor;}</strong></p>
+    
+    <p>Por exemplo queremos mudar a cor de um paragrafo para vermelho iremos escrever <strong>p{color:red;}</strong>.</p>
+    
+    <p>Ou se quisermos mudar o alinhamento de um h2 escreveremos <strong>h2{align:center;}</strong></p>
+    <p>
+        Mas e se quisermos mudar todos os elementos de um documento, como que faz??<br> E eu te respondo meu leitor
+        usaremos o Seletor Universal onde sua sintaxe é  <strong>*</strong><br> que representa todos os elementos
+        do documento. 
+    </p>
+    
+    <p>
+        Mas e se tivermos o exemplo que temos toda a página com os paragrafos da cor azul e queremos<br>
+        que um único paragrafo tenha a cor azul, como que fazemos?<br>
+        Ai usaremos o seletor de classe ou seletor de id. 
+    </p>
+    
+    <p>
+        <strong>Seletor de classe:</strong> você cria uma "variavel" dentro do lugar onde você quer modificar<br>
+        por exemplo p, h2,h3,ul,etc...<br>
+        .nome-da-variavel{color:red;} você irá aplicar cor vermelha a todos os elementos que possuem o atributo class = "nome-da-variavel"<br>
+        p.nome-da-variavel{color:red;} você irá aplicar a cor vermelha a todos os p que possuem o atributo class="nome-da-variavel"
+    </p>
+    
+    <p>
+        <strong>Seletor por id:</strong> Funciona da mesma maneira que o seletor de classe porém usaremos id e a sintaxe<br>
+        ao inves de ser .(ponto) usaremos #(hashtag), por exemplo:<br>
+        #<strong id="negrito">nome-do-id</strong>{color:cian;} aplica a cor ciano a todos os elementos que possuem o id = nome-do-id<br>
+        h2<strong id = "negrito">#nome-do-id</strong>{color:cian;} aplica a cor ciano a todos os h2 que possuem id = "nome-do-id"
+    </p>
+    
+    <p>
+        Algumas observações importantes para criarmos ids ou classes:
+    </p>   
+    
+    <ul>
+        <li>Não usar espaços em branco</li>
+        <li>Não utilizar caracteres especiais</li>
+        <li>Ele é case-sensitive</li>
+    
+    </ul>
+    <a href = "index.html">voltar</a>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: #2d6073;
+}
+p{
+    color: #1f192f;
+    font-size: 20px;
+}
+
+h2{
+    color: #f0f7da;
+    font-size: 25px;
+}
+
+ul{
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 20px;
+    color: #1f192f;
+    background:#b5e8c3 ;
+    padding: 10px;
+}
+strong#negrito{
+    color: #f0f7da;
+}
+a{
+    font-size: 20px;
+    color: #1f192f; 
+}

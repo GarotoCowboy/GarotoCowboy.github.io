@@ -1,0 +1,125 @@
+/*faz o import da fonte breathe fireIII */
+@import url('https://fonts.cdnfonts.com/css/breathe-fire-iii');
+/*Muda a fonte, o tamanho da fonte e a cor de fundo de todo o codigo*/
+body{
+    font-family: 'Breathe Fire III', sans-serif;
+    font-size:20px;
+    background-color: rgb(139, 115, 85);
+}
+/*Muda a borda, muda a cor da fonte e adiciona uma sombra, muda a cor de fundo dos inputs*/
+input{
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px black;
+    background-color: rgb(188, 154, 118);
+    color: black;
+}
+/*adiciona um padding no div*/
+div{
+    padding: 5px;
+}
+/*na divNomePersonagem coloca o tamanho sempre para 15% e faz com que seja possivel colocar outras divs
+ao lado dela*/
+#divNomePersonagem {
+    width: 15%;
+    display: inline-block;
+}
+/*modifica o input desta div.
+modifica o tamanho da fonte para 16pixels e a largura para 100% da div*/
+#divNomePersonagem input,
+font {
+    width: 100%;
+    font-size: 16px;
+}
+/*Modifica o input desta div
+a largura da div é de 60% e faz com que seja possivel colocar a divNomePersonagem ao lado dessa
+muda a posição para relative e faz com que a distancia da parte inferior da margem seja de 20px*/
+#divNomeJogador {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+/*Modifica o input nivel para 40 de largura e 40 de altura para ficar quadrado
+e alinha o texto para o centro*/
+#nivel{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+/*modifica o input e a fonte dentro da divNomeJogador
+Modifica o tamanho para 98% da tela e modifica o tamanho da fonte para 32*/
+#divNomeJogador input,
+font {
+    width: 98%;
+    font-size: 32px;
+}
+/*modifica a label do divNomeJogador
+Muda a posição para absoluta
+move o label para cima */
+#divNomeJogador label {
+    position: absolute;
+    bottom: -20px;
+}
+/*modifica as div
+ele pega 9% de largura e 9% de altura e alinha as div para esquerda
+o display faz com que seja possivel alinhar as div lado a lado*/
+#divForca,#divDestreza,#divConstituicao,#divInteligencia,#divSabedoria{
+    width:  9%;
+    height: 9%;
+    text-align: left;
+    display: inline-block;
+}
+/*modifica o input dos seguintes id:
+tamanho e largura para 90px e o tamanho da fonte para 30
+alinha o texto no centro*/
+#inputFor,#inputDes,#inputCons,#inputInt,#inputSab{
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+}
+/*faz com que as divs possam ficar lado a lado*/
+#divVida,#divMana{
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+}
+/*modifica os input a seguir
+modifica a altura e a largura
+alinha o texto 
+Modifica o tamanho da fonte*/
+#inputVidaMax,#inputManaMax{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+/*modifica os input a seguir
+modifica apenas a altura*/
+#inputVidaAtual,#inputManaAtual{
+    height: 40px;
+}
+/*modifica as seguintes divs
+modifica a largura e a altura 
+alinha o texto para o centro*/
+#divVidaMax,#divManaMax label{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+/*modifica o label das divs a seguir
+modifica o tamanho da fonte*/
+#divVida,#divMana label{
+    font-size: 30px;
+}
+/*modifica a div a seguir
+modifica o tipo da borda
+aumenta a largura e a altura
+e modifica o alinhamento vertical*/
+#divInventario input{
+    border-radius: 0px;
+    width: 1200px;
+    height: 200px;
+    vertical-align: top; 
+}

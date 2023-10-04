@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formularioEstilizado.css">
+</head>
+
+<body>
+    <form action="index.html" method="post">
+
+        <div id="divNomeJogador">
+            <label for="nomeJogador" class="rodape">Nome do Jogador</label>
+            <input type="text" id="nomeJogador" autocomplete="name" />
+        </div>
+        <div id="divNomePersonagem">
+            <label for="nomePersonagem">Personagem:</label>
+            <input type="text" id="nomePersonagem" />
+        </div>
+        
+        <div id="divInfoClasse">
+            <div id="topo">
+                <fieldset>
+                    <label for="raca">Raça:</label>
+                    <input type="text" id="raca">
+                    <label for="origem">Origem</label>
+                    <input type="text" id="origem">
+                    <label for="classe">classe e nível</label>
+                    <input type="text" id="classe"><input type="number" id="nivel">
+                </fieldset>
+            </div>
+        </div>
+
+        <div id="atributos">
+            <div id="divForca">
+                <label for="inputFor">For</label><br>
+                <input type="number" id="inputFor">
+            </div>
+            <div id="divDestreza">
+                <label for="inputDes">Des</label><br>
+                <input type="number" id="inputDes">
+            </div>
+            <div id="divConstituicao">
+                <label for="inputCons">Cons</label><br>
+                <input type="number" id="inputCons">
+            </div>
+            <div id="divInteligencia">
+                <label for="inputInt">Int</label><br>
+                <input type="number" id="inputInt">
+            </div>
+            <div id="divSabedoria">
+                <label for="inputSab">Sab</label><br>
+                <input type="number" id="inputSab">
+            </div>
+        </div>
+
+        <div id="divVidaMana">
+            <div id="divVida">
+                <label for="inputVidaMax">Pontos de vida</label><br>
+                <input type="number" id="inputVidaMax" placeholder="Vida Maxima">
+                <input type="number" id="inputVidaAtual" placeholder="Vida Atual"> 
+            </div>
+            <div id="divMana">
+                <label for="inputManaMax">Pontos de mana</label><br>
+                <input type="number" id="inputManaMax" placeholder="Mana Maxima">
+                <input type="number" id="inputManaAtual" placeholder="Mana Atual"> 
+            </div>
+        </div>
+
+        </div>
+        <label for="inventario">Inventario</label>
+        <div id="divInventario">
+            <input type="text"id="inventario">
+        </div>
+        <div>
+            <input type="reset" value="reset" >
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
+<a href="index.html">Voltar</a>
+</body>
+
+</html>

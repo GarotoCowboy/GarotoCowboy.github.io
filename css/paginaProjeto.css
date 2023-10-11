@@ -1,0 +1,84 @@
+@keyframes animacao{
+
+    0%{background-color: red;}
+    25%{ background-color: purple; width: 120px; height: 140px; translate: 2px, -2px;}
+    50%{ background-color: blue; width: 130px; height: 150px; translate: 2px, -2px;}
+    75%{ background-color: cyan;width: 140px; height: 160px;}
+    100%{ background-color: chartreuse; width: 160px; height: 180px;}
+}
+
+body {
+    background-color: #09A6A3;
+}
+
+p {
+    color: #1f192f;
+    font-size: 20px;
+}
+
+
+#projeto{
+    position: relative;
+    left: 5%;
+    top: 15px;
+    min-height: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    padding-top: 10px;
+    border: 8px double;
+    border-radius: 76px;
+    background: linear-gradient(145deg, #0f6a71, #127e87);
+    box-shadow:  11px 11px 22px #0d5b61,
+             -11px -11px 22px #15919b;
+    
+    
+}
+#projeto p{
+    padding-left: 4px;
+}
+#projeto h2{
+    text-align: center;
+}
+#projeto a{
+    color: black;
+}
+
+#projeto:hover{
+    font-size: 40px;
+}
+
+#projeto:hover p{
+    font-size: 20px;
+}
+
+
+
+
+#lateralProjeto{
+    background-color: red;
+   min-width: 50px;
+   min-height: 50px;
+   float: right;
+   animation-name: animacao;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    overflow: auto;
+    
+
+    
+}
+
+@media (max-width: 700px) {
+    
+    #projeto{
+        overflow-y: scroll;
+        transition: 1s;
+        max-height: 350px;
+        max-width: 300px;
+        height: auto;
+        
+    }
+    
+}

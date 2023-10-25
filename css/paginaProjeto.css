@@ -17,7 +17,7 @@ p {
 }
 
 
-#projeto{
+.projeto{
     position: relative;
     left: 5%;
     top: 15px;
@@ -34,21 +34,21 @@ p {
     
     
 }
-#projeto p{
+.projeto p{
     padding-left: 4px;
 }
-#projeto h2{
+.projeto h2{
     text-align: center;
 }
-#projeto a{
+.projeto a{
     color: black;
 }
 
-#projeto:hover{
+.projeto:hover{
     font-size: 40px;
 }
 
-#projeto:hover p{
+.projeto:hover p{
     font-size: 20px;
 }
 
@@ -72,7 +72,7 @@ p {
 
 @media (max-width: 700px) {
     
-    #projeto{
+    .projeto{
         overflow-y: scroll;
         transition: 1s;
         max-height: 350px;

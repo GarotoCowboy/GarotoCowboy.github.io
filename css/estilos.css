@@ -1,3 +1,27 @@
+/*Animação referente a página de primeiraAtividadeJs*/
+@keyframes animacao {
+    0%{box-shadow:  5px 6px 5px #9DBFAF ;}
+    5%{box-shadow:  5px 12px 10px #9cebc6;}
+    15%{box-shadow: 5px 24px 20px #9cebc6;}
+    25%{box-shadow: 5px 18px 25px #9cebc6;}
+    35%{box-shadow: 5px 18px 30px #9cebc6;}
+    50%{box-shadow: 5px 18px 35px #9cebc6;}
+    65%{box-shadow: 5px 18px 40px #9cebc6;}
+    80%{box-shadow: 5px 18px 45px #9cebc6;}
+    90%{box-shadow: 5px 18px 50px #9cebc6;}
+    95%{box-shadow: 5px 18px 55px #9cebc6;}
+    100%{box-shadow: 5px 18px 60px #9cebc6;}
+    95%{box-shadow: 5px 18px 55px #9cebc6;}
+    90%{box-shadow: 5px 18px 50px #9cebc6;}
+    80%{box-shadow: 5px 18px 45px #9cebc6;}
+    65%{box-shadow: 5px 18px 40px #9cebc6;}
+    50%{box-shadow: 5px 18px 35px #9cebc6;}
+    35%{box-shadow: 5px 18px 30px #9cebc6;}
+    25%{box-shadow: 5 18px 25px #9cebc6;}
+    15%{box-shadow: 5px 24px 20px #9cebc6;}
+    5%{box-shadow:  5px 12px 10px #9cebc6;}
+    0%{box-shadow:  5px 6px 5px #9DBFAF ;}
+}
 * {
     margin: 0px;
 }
@@ -10,6 +34,31 @@ p {
     color: #1f192f;
     font-size: 20px;
 }
+
+#imagem{
+    width: 250px;
+    height: 250px;
+    padding-left: 90px;
+
+}
+
+#primeiraAtividadeJs{
+        box-shadow: 1px 10px 120px 12px #12e7e0;
+        width: 450px;
+        height: 450px;
+        position: relative;
+        left: 500px;
+        top: 50px;
+        animation-name: animacao;
+        animation-duration: 30s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+}
+#h2js{
+    text-align: center;
+}
+
+
 
 
 

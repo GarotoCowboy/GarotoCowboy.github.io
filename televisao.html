@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisão</title>
+    <script src="js/televisao.js"></script>
+    <link rel="stylesheet" href="css/televisao.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h2>Televisão</h2>
+            <div class="imagem"><img src="icons/tvicon.png" alt="O icone de uma tv">
+            </div>
+            
+        </header>
+
+        <main>
+        <div class="tela">
+           <video id="video">
+            <source src="videos/batalhaLendaria.mp4" type="video/mp4" />
+            <source src="videos/shrekphone.mp4" type="video/mp4" />
+            <source src="videos/arvoreBugada.mp4" type="video/mp4" />
+            <source src="videos/danca.mp4" type="video/mp4" />
+            <source src="videos/espelhoMaligno.mp4" type="video/mp4" />
+            <source src="videos/minecraft.mp4" type="video/mp4" />
+           </video>
+        </div>
+        </main>
+        
+        <div id="controle">
+            <input type="button" onclick="ligar()" value="ligar">
+            <input type="button" onclick="desligar()" value="desligar">
+            <input type="button" onclick="aumentarVolume()" value="volume+">
+            <input type="button" onclick="diminuirVolume()" value="volume-">
+            <input type="button" onclick="trocarCanalMais()" value="canal+">
+            <input type="button" onclick="trocarCanalMenos()" value="canal-">
+            <input type="button" onclick="play()" value="play">
+            <input type="button" onclick="pausar()" value="pausar">
+            <a href="index.html">voltar</a>
+        </div>
+        
+    </div>
+</body>
+</html>

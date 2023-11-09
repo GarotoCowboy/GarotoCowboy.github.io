@@ -43,7 +43,7 @@ function trocarCanalMais(){
 
 function trocarCanalMenos(){
     index--
-    if(index<=videos.length){
+    if(index>=videos.length){
         index = 0
     }
     document.getElementById("video").src = videos[index]

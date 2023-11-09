@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+#container header{
+    width: 100%;
+    height: 80px;
+    
+}
+#container header h2{
+   text-align: center;
+}
+
+.imagem{
+    top: -40px;
+    position: relative;
+width: 100px;
+height: 100px;
+
+}
+
+img{
+    padding-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+main{
+    position: relative;
+    width: 100px;
+    height: 500px;
+}
+main{
+    top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .tela{
+    
+    width: 70%;
+    height: 100%;
+    /*background-color: black;*/
+    border: 5px solid #fff;
+}
+main .tv{
+    width: 100%;
+    height: 100%;
+}
+
+main #video{
+    width: 100%;
+    height: 100%;
+    
+}
+main #tv{
+    width: 100%;
+    height: 100%;
+}
+
+#controle{
+    width: 20%;
+    height: 400px;
+}
+#controle input{
+    margin: 5px;
+    box-shadow: 0px 1px 14px 3px #2d6073;
+	background-color:#2d6073;
+	border-radius:19px;
+	border:2px solid #2d6073;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:12px 30px;
+	text-decoration:none;
+}
+#controle input:hover{
+    background-color:#41839b;
+
+}
+
+#controle input:active{
+    position:relative;
+	top:1px;
+}
+
+@media only screen and (max-width: 768px) {
+    main .tela{
+        
+        width: 90%;
+        height: 60%;
+    }
+
+}
+
+

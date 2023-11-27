@@ -44,29 +44,3 @@ menu.onclick = () =>{
 }
 
 
-var swiper = new Swiper(".mercadoSlider", {
-    slidesPerView: 2,
-    spaceBetween: 20,
-    loop: true,
-      grabCursor:true,
-      centeredSlides:true,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-      },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 4,
-      },
-      768: {
-        slidesPerView: 3,
-      },
-      998: {
-        slidesPerView: 2,
-      },
-    },
-  });

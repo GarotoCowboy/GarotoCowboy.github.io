@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="styles/style.css">
+<script src="https://kit.fontawesome.com/d26f7b04fe.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </head>
 <body>
-    <p>funcionou</p>
+    <div id="header"></div>
+
+
+    <canvas id="gridCanvas" width="800" height="600"></canvas>
+
+    <div class="dado-abrir-tela">
+    <i class="fa fa-angle-double-left" id="btn-abrir" ></i>
+       
+    <div class="dado-container">
+        <!-- d20 -->
+        <div class="dado">
+          <button onclick="rollD20()">Rolar d20</button>
+          <p id="d20Result"></p>  
+        </div>
+      
+        <!-- d12 -->
+        <div class="dado">
+          <button onclick="rollD12()">Rolar d12</button>
+          <p id="d12Result"></p>  
+        </div>
+      
+        <!-- d10 -->
+        <div class="dado">
+          <button onclick="rollD10()">Rolar d10</button>
+          <p id="d10Result"></p>  
+        </div>
+        
+        <!-- d8 -->
+        <div class="dado">
+          <button onclick="rollD8()">Rolar d8</button>
+          <p id="d8Result"></p>  
+        </div>
+        
+        <!-- d6 -->
+        <div class="dado">
+          <button onclick="rollD6()">Rolar d6</button>
+          <p id="d6Result"></p>  
+        </div>
+        
+        <!-- d4 -->
+        <div class="dado">
+          <button onclick="rollD4()">Rolar d4</button>
+          <p id="d4Result"></p>  
+        </div>
+    </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
